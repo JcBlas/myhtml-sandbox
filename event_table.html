@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <style>
+        body{
+            background-image: url('sem.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center; 
+            display: grid;
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+            position: relative;
+            top: -250px;
+        }
+        body, html {
+            height: 100%; 
+            margin: 0; 
+            padding: 0;
+}
+        table, th, td{
+            width: fit-content;
+            text-align: left;
+            border-collapse: collapse;
+            border: 1px solid #8888886e;
+            padding: 5px;
+        }
+        th{
+            text-align: center;
+        }
+        thead, tr:nth-child(even) {
+            background-color: #e6e6e6;
+        }
+        td:nth-child(2){
+            text-align: center;
+        }
+        h1, table {
+            background-color: white; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+    </style>
+</head>
+<body>
+    <h1>Seminario Intramurals 2k23</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Event Name</th>
+                <th colspan="2">Event Details</th>
+            </tr>
+            <tr>
+                <th>Date</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sports Complex</td>
+                <td>09-17-2023</td>
+                <td>Sports Complex</td>
+            </tr>
+            <tr>
+                <td>Day 1</td>
+                <td>09-18-2023</td>
+                <td>Seminario's Court</td>
+            </tr>
+            <tr>
+                <td>Day 2</td>
+                <td>09-19-2023</td>
+                <td>Seminario's Court</td>
+            </tr>
+            <tr>
+                <td>Day 3</td>
+                <td>09-20-2023</td>
+                <td>Seminario's Court</td>
+            </tr>
+            <tr>
+                <td>Day 4</td>
+                <td>09-21-2023</td>
+                <td>Seminario's Court</td>
+            </tr>
+            <tr>
+                <td>Day 5/Finals and Awarding</td>
+                <td>09-22-2023</td>
+                <td>Seminario's Court</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+
+        <tr></tr>
+        <tr></tr>
+    </table>
+</body>
+</html>
